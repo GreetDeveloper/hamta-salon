@@ -368,6 +368,9 @@
     align-items: center;
     justify-content: center;
 }
+.pricing .heading{
+    color: #fff ;
+}
 .pricing .box-container .box{
     height: 500px;
     width: 300px;
