@@ -60,17 +60,18 @@
  }
 
   
- .btn{
+ .submit{
     margin-top: 1rem;
     display: inline-block;
-    background: var(--primary-color);
-    color:var(--white);
+    background: var(--main-color);
+    color: #fff;
     font-size: 2rem;
+    border-radius: 50px;
     cursor: pointer;
     padding:1rem 3rem;
  }
   
- .btn:hover{
+ .submit:hover{
      background: var(--hover);
  }
  
@@ -361,6 +362,8 @@
 .pricing{
     background-image: url(../images/pric-bg.jpg);
     background-attachment: fixed;
+    /* testing airplane center */
+    background-position: center;
 }
 .pricing .box-container{
     display: flex;
@@ -393,7 +396,7 @@
     opacity: .8;
 }
 .pricing .box-container .box::before{
-    background: #911414c2;
+    background: #d60f419f;
     top: -10%;
     right: 80%;
 }
@@ -413,7 +416,7 @@
     height: 160px;
     width: 160px;
     color: #fff;
-    background-color: #0e394bbb;
+    background-color: #250e4bbb;
     padding: 57px 0 0;
     margin: 0 auto 25px;
     border-radius: 50%;
@@ -452,11 +455,84 @@
     cursor: pointer;
     background: none;
     color: #fff;
-    border: 2px solid var(--hover);
+    border: 2px solid #37d3acb0;
     font-size: 17px;
     font-weight: 200;
 }
 .pricing .box-container .box button:hover{
     color: #fff;
-    background: var(--hover);
+    background: #0cf7e3ad;
 }
+
+                            /* Appointment*/
+
+.appointment{
+    background-image: url(../images/appointment.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.appointment .heading{
+    color: var(--light-bg);
+}
+.appointment .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.appointment .row form{
+    flex: 1 1 40rem;
+    border: 0.1rem solid #00eeffb7;
+    padding: 2rem;
+    border-radius: 8px;
+}
+.appointment .row form h3{
+    font-size: 2.5rem;
+    color: var(--light-bg);
+    text-align: center;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+.appointment .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #0a271ca2;
+    border: var(--hover);
+}
+.appointment .row .inputBox input{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
+}
+.appointment .row .inputBox label{
+    width: 70%;
+    color: #fff;
+    padding: 2rem;
+    font-size: 1.7rem;
+}
+.appointment .row .inputBox select{
+    padding: 1.5rem;
+    width: 40%;
+    background: #0d2731;
+    color: #fff;
+    font-size: large;
+}
+.appointment .row .inputBox textarea{
+    display: flex;
+    padding: 10rem;
+    font-size: 1.7rem;
+    width: 100%;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+ .appointment .row .image{
+    flex:  1 1 40rem;
+ }
+ .appointment .row .image img{
+    width: 100%;
+ }
