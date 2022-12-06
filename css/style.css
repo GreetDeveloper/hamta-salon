@@ -461,7 +461,7 @@
                             /* Appointment*/
 
 .appointment{
-    background-image: url(../images/bg-1.jpg);
+    background-image: url(../images/back.png);
     background-size: cover;
     background-position: center;
 }
@@ -618,8 +618,8 @@
         top: 0;
         right: -105%;
         width: 30rem;
-        background: #3b83a0;
-        height: 100%;
+        background: #0d2731;
+        height: 50%;
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -643,8 +643,21 @@
         padding: 1rem 1rem;
         border-radius: 0.4rem;
         align-items: center;
-        background: #0f3646;
+        background: #23637c;
         color: var(--white);
         cursor: pointer;
+     }
+     .home .content h3{
+        font-size: 4rem;
+        color: var(--black);
+        font-weight: 800;
+     }
+     .about .row .content .title{
+        color: #fff;
+        font-size: 4rem;
+        text-align: center;
+     }
+     .about .row .content p{
+        color: #f7fdfd;
      }
  }
